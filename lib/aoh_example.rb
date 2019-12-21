@@ -7,7 +7,17 @@ KATE_G = { name:  "Kate Gompert", occupation: "None" }
 BRUCE_G = { name:  "Bruce Green", occupation: "Fan of Mildred" }
 
 def assembled_aoh
+<<<<<<< HEAD
   arr = DON_G,JOELLE_VD,PAT_M,KATE_G,BRUCE_G
+=======
+  names_array=[
+    [DON_G,
+    JOELLE_VD,
+    PAT_M,
+    KATE_G,
+    BRUCE_G]
+    ]
+>>>>>>> 570cbc918782b1b4314d23c4b2502ae02646178f
   # Build an array that contains (or, "nests") the constants into a single
   # Array. Ruby constants are denoted by ALL_CAPS
 end
